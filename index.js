@@ -19,7 +19,7 @@ function appendDriver (name) {
   return [...drivers, name];
 }
 
-function prependDirver (name){
+function prependDriver (name){
   return [name, ...drivers];
-  
+
 }
